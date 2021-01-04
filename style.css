@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+/* start first Section */
 h1{
     font-size: 50px;
 }
@@ -9,18 +10,83 @@ h1{
     color: orange;
 }
 .top-div{
-    width: 40%;
+    width: 35%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 10%;
+    padding: 28px;
 }
 .top-div img{
-    width: 100%;
+    width: 75%;
+    margin: 20px 0px;
 }
 section{
-    height: 500px;
+    width: 100%;
+    height: 600px;
+    display: block;
+    padding: 24px 0px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+.top-div a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 17px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 7px;
+}
+/* end first section */
+
+/* start second section */
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-div{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.second-div img{
+    width: 75%;
+}
+.second-div a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 17px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 7px;
+}
+/* end second section */
+/* start third section */
+.ex-left{
+    margin-left: 111px;
+}
+.card{
+    box-shadow: 10px 10px 30px gray;
+    height: 50%;
+    border-radius: 5px;
+}
+.card p{
+    text-align: justify;
+}
+.smoth h2{
+    font-size: 30px;
+}
+.smoth h3{
+    font-size: 25px;
+}
+.smoth{
+    padding: 23px;
+}
+/* end third section */
+/* footer section start */
+footer p{
+    text-align: center;
+}
+/* footer section end */
